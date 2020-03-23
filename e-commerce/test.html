@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Decouverte</h1>
+        <p class="p1">Veillez saisir votre option</p>
+        <div id="text">
+            <ul>
+                <li>Favoris</li>
+                <li>Mon compte</li>
+                <li>Deconnexion</li>
+            </ul>
+        </div>
+
+
+
+        <script src="js/jquery-3.4.1.js"></script>
+
+
+        
+        <script>
+           $(document).ready(function(){
+               $('#text').hide()
+            $('.p1').on('click', function(){
+			$('#text').toggle();
+		});
+           })
+        </script>
+    </body>
+</html>

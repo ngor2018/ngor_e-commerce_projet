@@ -1,0 +1,198 @@
+ul li{
+	list-style-type: none;
+}
+#list_produit{
+	width: 100%;
+	position: absolute;
+	margin-top: -53px;
+	/* margin-left: 135px; */
+}
+#wrapper_1{
+	width: inherit;
+	position: absolute;
+	top: 58px;
+	background: linear-gradient(90deg,rgb(155, 57, 57),rgb(32, 32, 32));
+}
+#wrapper_1 .pad{
+	color: white;
+}
+h3{
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	/* font-weight: normal; */
+	font-size: 18px;
+	margin: 0;
+	padding: 0 1 12 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li.pad{
+	float: left;
+	/* background-color: #fff; */
+}
+#holder_1  li{
+	color: #242121;
+	text-decoration: none;
+	transition: 0.1s;
+}
+a{
+	color: #0e0d0d9d;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+}
+a:hover{
+	text-decoration: none;
+}
+.pad a{
+	padding: 13 10 17 12;
+	color: white;
+}
+#holder_1 ul{
+	width: 100%;
+}
+#holder_1 ul li span{
+	padding: 7 0;
+	color: white;
+}
+.pad > a:hover, .using > li:hover > a {
+	color: white;
+}
+#software ul li a:hover span{
+	transition: 0.1s;
+}
+#t-d ul li a:hover span, .using > li:hover > a > span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}
+.using{
+	position: sticky;
+	top: 0;
+}
+#vfx ul li a:hover span, #vfx .using > li:hover > a > span{
+	border-bottom: 2px solid #6159CC;
+	transition: 0.1s;
+}
+.sub-wrapper-vfx{
+	border-bottom: 5px solid #6159CC;
+	margin-left: -84px;
+}
+.sub-wrapper-vfx a:hover{
+	color: #6159CC;
+	transition: 0.3s;
+}
+#design ul li a:hover span, #design .using > li:hover > a > span{
+	border-bottom: 2px solid #FA9C14;
+	transition: 0.1s;
+}
+.sub-wrapper-design{
+	border-bottom: 5px solid #FA9C14;
+	margin-left: -83px;
+}
+.sub-wrapper-design a:hover{
+	color: #FA9C14;
+	transition: 0.3s;
+}
+#game ul li a:hover span, #game .using > li:hover > a > span{
+	border-bottom: 2px solid #78BA42;
+	transition: 0.1s;
+}
+.sub-wrapper-game{
+	border-bottom: 5px solid #78BA42;
+	margin-left: 225px;
+}
+.sub-wrapper-game a:hover{
+	color: #78BA42;
+	transition: 0.3s;
+}
+#web ul li a:hover span, #web .using > li:hover > a > span{
+	border-bottom: 2px solid #CA3723;
+	transition: 0.1s;
+}
+.sub-wrapper-web{
+	border-bottom: 5px solid #CA3723;
+	margin-left: 275px;
+}
+.sub-wrapper-web a:hover{
+	color: #CA3723;
+	transition: 0.3s;
+}
+#cad ul li a:hover span, #cad .using > li:hover > a > span{
+	border-bottom: 2px solid #1CA6E0;
+	transition: 0.1s;
+}
+.sub-wrapper-cad{
+	border-bottom: 5px solid #1CA6E0;
+	margin-left: 324px;
+}
+.sub-wrapper-cad a:hover{
+	color: #1CA6E0;
+	transition: 0.3s;
+}
+#dev ul li a:hover span{
+	border-bottom: 2px solid #F26621;
+	transition: 0.1s;
+}
+#blog ul li a:hover span{
+	border-bottom: 2px solid #777777;
+	transition: 0.1s;
+}
+/* voir */
+.sub-wrapper-vfx, .sub-wrapper-design, .sub-wrapper-game, .sub-wrapper-web, .sub-wrapper-cad{
+	width: 50%;
+	height: auto;
+	/* background: linear-gradient(90deg,rgb(186, 181, 190),rgb(22, 23, 34)); */
+	/* background: #b8b2b2; */
+	background: linear-gradient(90deg,rgb(155, 57, 57),rgb(32, 32, 32));
+	position: absolute;
+	left: 90;
+	padding: 30 0;
+}
+#holder_1 ul li > ul{
+	position: absolute;
+	left: -9000;
+}
+#holder_1 ul li:hover ul{
+	left: 0;
+}
+.sub-con{
+	width: 900px;
+	margin: 0px auto;
+}
+.sub-l{
+	float: left;
+	width: 210px;
+	margin-left: 12px;
+}
+.sub-hol ul li a{
+	padding: 8 0 0 0;
+	font-size: 13px;
+	transition: 0.3s;
+	/* font-weight: 600; */
+}
+.sub-m{
+	padding-left: 10px;
+	float: left;
+	margin-left: 63px;
+	/* border-left: 1px solid #4D4D4D;
+	border-right: 1px solid #4D4D4D; */
+	padding-right: 210px;
+}
+.sub-in-l{
+	float: left;
+	width: 215px;
+	margin-left: 2px;
+}
+.sub-in-r{
+	float: right;
+	width: 165px;
+	margin-left: 13px;
+}
+.sub-r{
+	float: left;
+	margin-left: -260px;
+	padding-left: 20px;
+}
